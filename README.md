@@ -22,16 +22,6 @@ Live on Google Play. One-tap background removal running ML Kit subject segmentat
 
 ---
 
-### [Boat Escape](boat-escape/)
-
-Live on Google Play. Logic puzzle game — unblock the boats to clear the harbour. Full ad lifecycle: App Open with session pacing and frequency caps, UMP consent, and a startup surface that never blocks first play.
-
-`Kotlin` `Jetpack Compose` `AdMob` `UMP`
-
-[Play Store](https://play.google.com/store/apps/details?id=com.boat_puzzle.boatescape) · [Read more →](boat-escape/)
-
----
-
 ## In development
 
 ### [Expense Tracker](expense-tracker/)
@@ -64,6 +54,23 @@ actually ask staff.
 
 IVAP COVID-19 and an on-demand mechanic booking app, plus focused practice on RecyclerView,
 Retrofit + Glide, SQLite, Services, BroadcastReceivers, Google Maps and AdMob.
+
+---
+
+## Games
+
+### [Boat Escape](boat-escape/) — sliding-block puzzle
+
+Live on Google Play. Unblock the boats to clear a path out of the harbour. A full ad lifecycle
+sits under it: App Open with session pacing and frequency caps, UMP consent, and a startup
+surface that never blocks first play.
+
+**Being added:** a board solver, so levels can be generated instead of hand-authored — and so
+the game can prove a level is solvable and how hard it is before anyone ever sees it.
+
+`Kotlin` `Jetpack Compose` `AdMob` `UMP`
+
+[Play Store](https://play.google.com/store/apps/details?id=com.boat_puzzle.boatescape) · [Read more →](boat-escape/)
 
 ---
 

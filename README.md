@@ -42,18 +42,28 @@ Offline-first personal finance tracking. Built in phases, each with its own audi
 
 ---
 
-## Earlier work
+## Earlier work, being rebuilt
 
-University and self-taught Android projects, 2021. Java, pre-Compose. Kept for history rather than as a sample of current work.
+Two complete applications from 2021 — Java, before Jetpack Compose. The code is not a sample of
+how I build today; both are getting a rebuild with on-device vision doing something the app
+actually needed.
 
-| Project | What it is |
-|---|---|
-| **[Blood Bank Management](blood-bank/)** | Donor registry with sign-up/sign-in, donor search, donation records and profiles |
-| Plants Nursery | Plant catalogue and ordering |
-| IVAP COVID-19 | Information app built during the pandemic |
-| Mechanic App | On-demand mechanic booking |
+### [LifeLink](lifelink/) — blood donor network
 
-Plus focused practice on RecyclerView, Retrofit + Glide, SQLite, Services, BroadcastReceivers, Google Maps and AdMob integration.
+Find a donor by blood group and location, or register as one. **Being added:** blood group and
+last-donation date read off a donor card with on-device text recognition, and an eligibility
+pre-screen so a request reaches people who can actually give.
+
+### [Plants Nursery](plants-nursery/) — catalogue and ordering
+
+Customer and admin sides over one catalogue, with Maps for the shop and for delivery.
+**Being added:** identify a plant from a photo, and spot a sick leaf — the question customers
+actually ask staff.
+
+### Other 2021 work
+
+IVAP COVID-19 and an on-demand mechanic booking app, plus focused practice on RecyclerView,
+Retrofit + Glide, SQLite, Services, BroadcastReceivers, Google Maps and AdMob.
 
 ---
 

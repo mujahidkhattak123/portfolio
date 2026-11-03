@@ -12,6 +12,8 @@ This repository is an index. Each project below has a page describing what it do
 
 ### [AI Photo Editor — Background Eraser Photo Cutout](projects/ai-photo-editor.md)
 
+![Background Eraser Photo Cutout](assets/hero.png)
+
 Live on Google Play. One-tap background removal running ML Kit subject segmentation **on the device**, with a FastAPI gateway behind it fronting ten model providers for generative replace, inpainting, upscale and text-to-image. Self-hosted BiRefNet on a RunPod GPU worker.
 
 `Kotlin` `Jetpack Compose` `ML Kit` `FastAPI` `Firebase` `Play Billing` `AdMob`

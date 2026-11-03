@@ -2,6 +2,8 @@
 
 **Live on Google Play** · [Store listing](https://play.google.com/store/apps/details?id=com.photostudio.aiphotoeditor)
 
+![Background Eraser Photo Cutout](../assets/hero.png)
+
 A photo editor built around segmentation and generative editing. Kotlin and Jetpack Compose on the device, FastAPI on the server, with inference split between the handset and a model gateway depending on what the user is entitled to and what the device can actually do.
 
 ---
@@ -14,6 +16,8 @@ A photo editor built around segmentation and generative editing. Kotlin and Jetp
 - **Format conversion** — PNG, JPG, WEBP with transparency handling
 - **Generative editing** — background replace, inpainting (magic erase), upscale
 - **Layer editor** — transforms, masks, adjustments, filters, text, templates
+
+![Onboarding, templates and sizing](../assets/features.png)
 
 ---
 

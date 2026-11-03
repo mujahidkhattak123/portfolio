@@ -2,7 +2,7 @@
 
 AI engineer, Android and backend. CEO & Founder at Tackle Bytes, Peshawar.
 
-This repository is an index. Each project below has a page describing what it does, what was hard about it, and how it was solved. Source for the commercial work stays private.
+One folder per project. Open any of them for the write-up and the screenshots that go with it. Source for the commercial work stays private.
 
 📧 [mujahidmskhan112@gmail.com](mailto:mujahidmskhan112@gmail.com)
 
@@ -10,31 +10,31 @@ This repository is an index. Each project below has a page describing what it do
 
 ## Shipped
 
-### [AI Photo Editor — Background Eraser Photo Cutout](projects/ai-photo-editor.md)
+### [AI Photo Editor — Background Eraser Photo Cutout](ai-photo-editor/)
 
-![Background Eraser Photo Cutout](assets/hero.png)
+![Background Eraser Photo Cutout](ai-photo-editor/hero.png)
 
 Live on Google Play. One-tap background removal running ML Kit subject segmentation **on the device**, with a FastAPI gateway behind it fronting ten model providers for generative replace, inpainting, upscale and text-to-image. Self-hosted BiRefNet on a RunPod GPU worker.
 
 `Kotlin` `Jetpack Compose` `ML Kit` `FastAPI` `Firebase` `Play Billing` `AdMob`
 
-[Play Store](https://play.google.com/store/apps/details?id=com.photostudio.aiphotoeditor) · [Read the case study →](projects/ai-photo-editor.md)
+[Play Store](https://play.google.com/store/apps/details?id=com.photostudio.aiphotoeditor) · [Read the case study →](ai-photo-editor/)
 
 ---
 
-### [Boat Escape](projects/boat-escape.md)
+### [Boat Escape](boat-escape/)
 
 Live on Google Play. Logic puzzle game — unblock the boats to clear the harbour. Full ad lifecycle: App Open with session pacing and frequency caps, UMP consent, and a startup surface that never blocks first play.
 
 `Kotlin` `Jetpack Compose` `AdMob` `UMP`
 
-[Play Store](https://play.google.com/store/apps/details?id=com.boat_puzzle.boatescape) · [Read more →](projects/boat-escape.md)
+[Play Store](https://play.google.com/store/apps/details?id=com.boat_puzzle.boatescape) · [Read more →](boat-escape/)
 
 ---
 
 ## In development
 
-### [Expense Tracker](projects/expense-tracker.md)
+### [Expense Tracker](expense-tracker/)
 
 Offline-first personal finance tracking. Built in phases, each with its own audit and validation pass.
 
@@ -48,7 +48,7 @@ University and self-taught Android projects, 2021. Java, pre-Compose. Kept for h
 
 | Project | What it is |
 |---|---|
-| **[Blood Bank Management](projects/blood-bank.md)** | Donor registry with sign-up/sign-in, donor search, donation records and profiles |
+| **[Blood Bank Management](blood-bank/)** | Donor registry with sign-up/sign-in, donor search, donation records and profiles |
 | Plants Nursery | Plant catalogue and ordering |
 | IVAP COVID-19 | Information app built during the pandemic |
 | Mechanic App | On-demand mechanic booking |

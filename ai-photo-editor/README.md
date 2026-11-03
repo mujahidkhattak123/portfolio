@@ -2,7 +2,7 @@
 
 **Live on Google Play** · [Store listing](https://play.google.com/store/apps/details?id=com.photostudio.aiphotoeditor)
 
-![Background Eraser Photo Cutout](../assets/hero.png)
+![Background Eraser Photo Cutout](hero.png)
 
 A photo editor built around segmentation and generative editing. Kotlin and Jetpack Compose on the device, FastAPI on the server, with inference split between the handset and a model gateway depending on what the user is entitled to and what the device can actually do.
 
@@ -17,7 +17,7 @@ A photo editor built around segmentation and generative editing. Kotlin and Jetp
 - **Generative editing** — background replace, inpainting (magic erase), upscale
 - **Layer editor** — transforms, masks, adjustments, filters, text, templates
 
-![Onboarding, templates and sizing](../assets/features.png)
+![Onboarding, templates and sizing](features.png)
 
 ---
 
@@ -117,3 +117,18 @@ The third was not a code problem at all. The fix was to build the converter.
 ## Stack
 
 `Kotlin` `Jetpack Compose` `Coroutines/Flow` `ML Kit` `CameraX` `Room` `Play Billing` `Play App Signing` `AdMob` `UMP` `FastAPI` `Python` `Firebase Auth` `Firestore` `Docker` `Railway` `RunPod`
+
+---
+
+## Screens
+
+Full-size captures in [`screens/`](screens).
+
+| | |
+|---|---|
+| [Home](screens/03-home.png) | Six tools on one screen |
+| [Templates](screens/04-templates.png) · [Beauty](screens/05-templates-beauty.png) | The ready-made design library |
+| [Convert](screens/06-convert.png) | PNG, JPG or WEBP |
+| [Passport & visa](screens/07-passport-visa.png) | 35×45 mm and 2×2 in presets |
+| [Units](screens/08-units.png) | px, inches, cm, mm at 300 DPI |
+| [Onboarding](screens/01-onboarding-create.png) · [AI](screens/02-onboarding-ai.png) | First run |

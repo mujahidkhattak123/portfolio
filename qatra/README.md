@@ -1,10 +1,12 @@
-# LifeLink
+# Qatra
 
 **University project, 2021** · Java, pre-Compose Android · **being rebuilt**
 
+**Qatra** — قطرہ, Urdu for *a drop*.
+
 A blood donor network. Someone needs a specific blood group in a specific city, and someone nearby is willing to give it — the app is the thing in between.
 
-Originally built as *Blood Bank Management System*. Renamed because the old title described a database, not a product.
+Originally built as *Blood Bank Management System*. Renamed because the old title described a database, not a product, and because an app used in Pakistan should carry a name the people using it already know.
 
 ---
 

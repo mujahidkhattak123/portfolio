@@ -48,7 +48,7 @@ Two complete applications from 2021 — Java, before Jetpack Compose. The code i
 how I build today; both are getting a rebuild with on-device vision doing something the app
 actually needed.
 
-### [LifeLink](lifelink/) — blood donor network
+### [Qatra](qatra/) — blood donor network
 
 Find a donor by blood group and location, or register as one. **Being added:** blood group and
 last-donation date read off a donor card with on-device text recognition, and an eligibility

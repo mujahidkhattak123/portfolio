@@ -15,9 +15,28 @@ A photo editor built around segmentation and generative editing. Kotlin and Jetp
 - **Passport and visa photos** — 35×45 mm and 2×2 in canvases at 300 DPI, print-ready
 - **Format conversion** — PNG, JPG, WEBP with transparency handling
 - **Generative editing** — background replace, inpainting (magic erase), upscale
-- **Layer editor** — transforms, masks, adjustments, filters, text, templates
+- **Layer editor** — layers, transforms, masks, filters, shadows, text and templates
+- **Export** — PNG, JPG, PDF or WEBP, with resolution tiers from Standard to 4K
 
 ![Onboarding, templates and sizing](features.png)
+
+### Editing
+
+Per-layer tools — replace, cut out, crop, retouch — plus adjustments for brightness,
+contrast, saturation, exposure and warmth. Backgrounds can be swapped for a stock
+texture, set to a flat colour, made transparent, or locked so a stray drag cannot
+move them.
+
+![Editing, adjusting and exporting](editing.png)
+
+### Designing
+
+The cutout is the entry point, not the whole product. A canvas carries layers, text
+presets written for the people actually using it (`NEW`, `SALE`, `DM for Price`),
+a stock library of elements, photos, overlays, frames and shapes, and the output
+sizes people post at — Instagram, TikTok, YouTube, Amazon, Etsy, eBay.
+
+![Layers, text, elements and formats](designing.png)
 
 ---
 
@@ -132,3 +151,7 @@ Full-size captures in [`screens/`](screens).
 | [Passport & visa](screens/07-passport-visa.png) | 35×45 mm and 2×2 in presets |
 | [Units](screens/08-units.png) | px, inches, cm, mm at 300 DPI |
 | [Onboarding](screens/01-onboarding-create.png) · [AI](screens/02-onboarding-ai.png) | First run |
+| [Layer tools](screens/layer-tools.png) · [Adjust](screens/adjust.png) | Per-layer editing |
+| [Backgrounds](screens/backgrounds.png) · [Colour](screens/background-colour.png) | Swap or fill the background |
+| [Text](screens/text.png) · [Elements](screens/elements.png) · [Frames](screens/frames-shapes.png) | The design library |
+| [Canvas](screens/canvas.png) · [Formats](screens/design-formats.png) · [Export](screens/export.png) | Build and ship |

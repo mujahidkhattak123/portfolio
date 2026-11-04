@@ -24,6 +24,20 @@ Live on Google Play. One-tap background removal running ML Kit subject segmentat
 
 ## In development
 
+### [PlantLens](plantlens/) — on-device plant identification
+
+![PlantLens](plantlens/hero.png)
+
+2,101 species recognised on the handset in 72–114 ms. No upload, no network, no per-call cost.
+TensorFlow Lite through Play Services, with a cloud tier for the cases the on-device model
+cannot reach.
+
+`Kotlin` `Jetpack Compose` `TensorFlow Lite` `CameraX` `Firebase`
+
+[Read more →](plantlens/)
+
+---
+
 ### [Expense Tracker](expense-tracker/)
 
 Offline-first personal finance tracking. Built in phases, each with its own audit and validation pass.
@@ -47,8 +61,8 @@ pre-screen so a request reaches people who can actually give.
 ### [Plants Nursery](plants-nursery/) — catalogue and ordering
 
 Customer and admin sides over one catalogue, with Maps for the shop and for delivery.
-**Being added:** identify a plant from a photo, and spot a sick leaf — the question customers
-actually ask staff.
+The identification half became its own app — see [PlantLens](plantlens/), already running
+on a device. **Still to come:** folding it back in, and leaf disease detection.
 
 ### Other 2021 work
 

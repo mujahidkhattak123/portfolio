@@ -22,8 +22,6 @@ Live on Google Play. One-tap background removal running ML Kit subject segmentat
 
 ---
 
-## In development
-
 ### [PlantLens](plantlens/) — on-device plant identification
 
 ![PlantLens](plantlens/hero.png)
@@ -34,9 +32,11 @@ cannot reach.
 
 `Kotlin` `Jetpack Compose` `TensorFlow Lite` `CameraX` `Firebase`
 
-[Read more →](plantlens/)
+[Source](https://github.com/mujahidkhattak123/plantlens) · [Download the APK](https://github.com/mujahidkhattak123/plantlens/releases/latest) · [Read the case study →](plantlens/)
 
 ---
+
+## In development
 
 ### [Expense Tracker](expense-tracker/)
 

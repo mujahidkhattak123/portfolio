@@ -1,6 +1,8 @@
 # PlantLens
 
-**In development** · Kotlin, Jetpack Compose, TensorFlow Lite
+**Source and APK public** · Kotlin, Jetpack Compose, TensorFlow Lite
+
+[**Repository**](https://github.com/mujahidkhattak123/plantlens) · [**Download the APK**](https://github.com/mujahidkhattak123/plantlens/releases/latest) · [Interview notes](INTERVIEW.md)
 
 Point a camera at a plant and get a name. The model runs on the handset — nothing is uploaded,
 it works with no signal, and a run costs nothing.

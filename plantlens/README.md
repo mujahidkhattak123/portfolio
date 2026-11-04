@@ -86,8 +86,19 @@ AIY Plants V1 is trained on data heavily skewed to North America. The pipeline i
 the latency is good; the species coverage does not match where the app is being used. Top
 confidences of 22–27% are the model saying so.
 
-This is why the cloud tier exists in the design, and it is the next thing to build. Finding it
-in week one, on real leaves, is the point of testing on a device instead of a sample image.
+This is why the cloud tier exists, and it is now built. PlantNet is trained on global
+observations and returns common names, which the on-device label set does not carry at all.
+Finding this in week one, on real leaves, is the point of testing on a device rather than a
+sample image.
+
+### How the two tiers hand off
+
+The handset answers first and its result is shown immediately — the cloud round trip is not
+dead time. If that answer is below 0.45 the request escalates, and if the escalation fails the
+local answer stands rather than being erased. The chip on screen always says which engine the
+visible answer came from.
+
+**[What to say about all this in an interview →](INTERVIEW.md)**
 
 ---
 
@@ -96,8 +107,8 @@ in week one, on real leaves, is the point of testing on a device instead of a sa
 - [x] Project, Compose UI, CameraX capture with correct rotation
 - [x] System photo picker — no gallery permission
 - [x] On-device classifier, geometry read from the model rather than hard-coded
-- [x] `IdentifyPolicy` and `CandidateRanking`, 19 tests
+- [x] `IdentifyPolicy`, `CandidateRanking` and `PlantNetResponse` — 27 tests, no emulator
 - [x] Firebase Analytics and Crashlytics
-- [ ] Cloud tier with global species coverage
-- [ ] Common names — the model emits Latin binomials, which is not an answer for a gardener
+- [x] Cloud tier — PlantNet, global coverage, escalated to only when the local answer is weak
+- [x] Common names — they arrive with the cloud result; the on-device label set has none
 - [ ] Leaf disease detection
